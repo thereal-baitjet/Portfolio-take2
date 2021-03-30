@@ -1,4 +1,6 @@
 body {
+    width: 100%;
+    height: 100%;
     background-color: black;
 }
 #hero {
@@ -40,13 +42,6 @@ body {
     font-family: "Poppins", sans-serif;
   }
   
-  #hero p span {
-    color: #fff;
-    padding-bottom: 4px;
-    letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
-  }
-  
   @media (min-width: 1024px) {
     #hero {
       background-attachment: fixed;
@@ -55,8 +50,9 @@ body {
   
   @media (max-width: 768px) {
     #hero h1 {
-      font-size: 12px;
-      line-height: 36px;
+      font-size: 6px;
+      line-height: 20px;
+      text-align: center;
     }
     #hero h2 {
       font-size: 18px;
