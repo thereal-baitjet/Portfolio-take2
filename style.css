@@ -55,7 +55,7 @@ body {
   
   @media (max-width: 768px) {
     #hero h1 {
-      font-size: 28px;
+      font-size: 12px;
       line-height: 36px;
     }
     #hero h2 {
