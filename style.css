@@ -83,3 +83,39 @@ body {
   width: 50vh;
   height: 20%;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #juanImg {
+    display: block;
+    margin-left: auto;
+    margin-right: 25%;
+    width: 55%;
+    height: 50%;
+  }
+  
+  #betFullstackImg {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 70%;;
+    height: 70%;
+  } 
+  
+  #schedulerImg {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+  }
+  
+  #passImg {
+    display: block;
+    margin-left: auto;
+    margin-right: 25%;
+    width: 70%;
+    height: 70%;
+  }
+}
