@@ -47,37 +47,39 @@ body {
   }
 }
 #imgContainer {
+  background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg?w=750");
   display: flex;
+  flex-direction: column;
 }
 
 #juanImg {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  margin-right: 25%;
+  width: 50vh;
   height: 20%;
 }
 
 #betFullstackImg {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
-  width: 20%;
+  width: 50vh;
   height: 20%;
 }
 
 #schedulerImg {
   display: block;
-  margin-left: auto;
+  margin-left: 25%;
   margin-right: auto;
-  width: 20%;
+  width: 50vh;
   height: 20%;
 }
 
 #passImg {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  margin-right: 25%;
+  width: 50vh;
   height: 20%;
 }
